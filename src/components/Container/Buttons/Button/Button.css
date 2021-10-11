@@ -1,0 +1,15 @@
+.button {
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  margin: 5px;
+}
+.button button {
+  background-color: gray;
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px rgb(94, 94, 94);
+}

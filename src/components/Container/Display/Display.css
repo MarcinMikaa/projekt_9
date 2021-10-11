@@ -1,0 +1,16 @@
+.display {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin: 20px;
+  padding: 40px;
+  padding: 0 20px 0 10px;
+  background-color: rgb(152, 198, 209);
+  justify-content: end;
+  border-radius: 5px;
+}
+
+.display span {
+  font-size: 30px;
+  font-weight: 700;
+}
