@@ -11,7 +11,9 @@ function Container() {
   const getValue = (value) => {
     if (value === "+" || value === "-" || value === "*" || value === "/") {
       setOperator(value + operator);
-      setFirst(parseInt(data, 10));
+      console.log(data);
+      setFirst(first + parseInt(data, 10));
+      console.log(first);
       setData("");
     } else if (value === "=") {
       setData(parseInt(data, 10) + first);
@@ -20,13 +22,8 @@ function Container() {
       setFirst(0);
     } else {
       setData(data + value);
-      console.log(first);
-      console.log(data);
     }
   };
-
-  console.log(first);
-  console.log(data);
 
   return (
     <div className="container">
